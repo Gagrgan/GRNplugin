@@ -1,0 +1,48 @@
+worldLoad().eventEntity(entity)
+worldLoad().runFunction(worldspawn.load)
+
+function(worldspawn.load).eventEntity(entity)
+function(worldspawn.load).objectVariable(worldspawn.testValue)([mass data value=])
+function(worldspawn.load).objectVariable(worldspawn.xCoord; worldspawn.yCoord; worldspawn.zCoord)(255; 255; 255)
+function(worldspawn.load).runFunction(worldspawn.setCoords)
+
+
+################ WORLDSPAWN COORDS ##########
+
+function(worldspawn.setCoords).eventEntity(entity)
+function(worldspawn.setCoords).runFunction(worldspawn.xCoord)(worldspawn.yCoord)(worldspawn.zCoord)
+
+
+function(worldspawn.xCoord).eventEntity(entity)
+function(worldspawn.xCoord).massdata(set)(worldspawn.xCoord)({worldspawn.xCoord})
+
+function(worldspawn.yCoord).eventEntity(entity)
+function(worldspawn.yCoord).massdata(set)(worldspawn.yCoord)({worldspawn.yCoord})
+
+function(worldspawn.zCoord).eventEntity(entity)
+function(worldspawn.zCoord).massdata(set)(worldspawn.zCoord)({worldspawn.zCoord})
+
+################ WORLDSPAWN COORDS ############
+
+argCommand(worldspawn).eventEntity(player)
+argCommand(worldspawn).runFunction(worldspawn.command.coordinates)
+
+function(worldspawn.command.coordinates).eventEntity(player)
+function(worldspawn.command.coordinates).runFunction(worldspawn.command.coordinates.test1)(worldspawn.command.coordinates.test2)(worldspawn.command.coordinates.test3)
+function(worldspawn.command.coordinates).objectVariable(worldspawn.command.coordinates.testValue)([arg=2])
+
+function(worldspawn.command.coordinates.test1).eventEntity(player)
+function(worldspawn.command.coordinates.test1).objectVariable(worldspawn.{worldspawn.command.coordinates.testValue}Coord)([arg=3])
+function(worldspawn.command.coordinates.test1).testFor(object variable)(worldspawn.command.coordinates.testValue)(x)
+function(worldspawn.command.coordinates.test1).runFunction(worldspawn.{worldspawn.command.coordinates.testValue}Coord)
+
+function(worldspawn.command.coordinates.test2).eventEntity(player)
+function(worldspawn.command.coordinates.test2).objectVariable(worldspawn.{worldspawn.command.coordinates.testValue}Coord)([arg=3])
+function(worldspawn.command.coordinates.test2).testFor(object variable)(worldspawn.command.coordinates.testValue)(y)
+function(worldspawn.command.coordinates.test2).runFunction(worldspawn.{worldspawn.command.coordinates.testValue}Coord)
+
+function(worldspawn.command.coordinates.test3).eventEntity(player)
+function(worldspawn.command.coordinates.test3).objectVariable(worldspawn.{worldspawn.command.coordinates.testValue}Coord)([arg=3])
+function(worldspawn.command.coordinates.test3).testFor(object variable)(worldspawn.command.coordinates.testValue)(z)
+function(worldspawn.command.coordinates.test3).runFunction(worldspawn.{worldspawn.command.coordinates.testValue}Coord)
+
