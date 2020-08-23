@@ -1,0 +1,5 @@
+worldLoad().eventEntity(entity)
+worldLoad().runFunction(hub.load)
+
+function(hub.load).eventEntity(player)
+function(hub.load).runFunction( )
