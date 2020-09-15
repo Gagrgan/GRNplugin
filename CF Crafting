@@ -1,0 +1,17 @@
+function(cf crafting).eventEntity(player)
+function(cf crafting).runFunction(cf item1)
+
+function(cf item1).eventEntity(player)
+function(cf item1).objectVariable(cf stage)(1)
+function(cf item1).testFor(has item)([variable=customCrafting.{cf arg2}.1.item])([variable=customCrafting.{cf arg2}.1.tag])
+function(cf item1).testForFunction(cf failure)
+
+function(cf failure).eventEntity(player)
+function(cf failure).
+
+argCommand(cf).eventEntity(player)
+argCommand(cf).objectVariable(cf arg2)([arg=2])
+argCommand(cf).runFunction(cf command)
+
+function(cf command).eventEntity(player)
+function(cf command).runFunction(cf crafting)
