@@ -1,0 +1,8 @@
+function(has Thomas' Blade).eventEntity(entity)
+function(has Thomas' Blade).testFor(has item)(gold sword)(ItemBBOtag:"Thomas' Blade")
+function(has Thomas' Blade).testForFunction(ctf false)
+function(has Thomas' Blade).runFunction(ctf true)
+
+function(ctf true).returnValue(true)
+
+function(ctf false).returnValue(false)
