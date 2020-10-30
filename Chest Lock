@@ -1,0 +1,15 @@
+chestOpening().eventEntity(player)
+
+
+function(co test chest).eventEntity(player)
+function(co test chest).objectVariable(currentBlock)([targeted block=type])
+
+function(co test chest).eventEntity(player)
+function(co test chest).runFunction(co cancel)
+
+function(co cancel)
+
+
+
+
+chestOpening().testFor(string contains)(chest)({currentBlock})
